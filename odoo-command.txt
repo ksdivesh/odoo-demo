@@ -1,0 +1,25 @@
+odoo have official docker image, https://hub.docker.com/_/odoo
+
+- regarding add/modify "addons"
+
+   just setup addon directory and use docker '-v' mapping from host machine.
+
+- access "odoo-bin"
+
+   docker exec -it your_odoo_container_name /bin/bash
+
+   then invoke 'odoo' instead of odoo-bin
+
+
+
+Backup & Restore docker database
+https://stackoverflow.com/questions/24718706/backup-restore-a-dockerized-postgresql-database
+
+
+how to share postgres database
+https://stackoverflow.com/questions/71682004/how-to-share-docker-container-volume-with-other-team-members
+
+
+
+Model name format in security
+module_name.model_hospital_patient
